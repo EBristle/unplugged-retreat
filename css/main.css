@@ -513,7 +513,7 @@ figure {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    flex-basis: 50%
+    flex-basis: 50%;
   }
   .features .features-item-description {
     width: 50%;
@@ -560,43 +560,99 @@ figure {
   }
 
 /* About Page */
-.mission-content {
+  .mission-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  }
 
-.mission-content p {
+  .mission-content p {
   width: 40%;
-}
+  }
 
-.contact-section .content-wrapper h1 {
-  width: 80%;
-}
+  .contact-section .content-wrapper h1 {
+    width: 80%;
+  }
 
-.contact-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
 /* FAQ Page */
-.faq .content-wrapper {
-  justify-content: space-between;
-}
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
 
-.faq-content {
-  flex-basis: 40%;
-}
+  .faq-content {
+    flex-basis: 40%;
+  }
 
-.faq h2 {
-  width: 100%;
-}
+  .faq h1 {
+    width: 100%;
+  }
 
 }
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
+
+  /* General styles */
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* Hero Area */
+  .hero-area h1 {
+    width: 60%;
+    margin-top: 50px;
+  }
+
+  /* Aside */
+
+  aside .content-wrapper {
+    justify-content: space-around;
+
+  }
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Features */
+
+  .features h1 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+ 
+  /* Reviews */
+  .reviews article div {
+    width: 44%;
+  }
+
+/* About Page */
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+      width: 96%;
+  }
+
+  .contact-section .content-wrapper h2 {
+      margin-bottom: 40px;
+  }
+
+/* FAQ Page */
+.faq h1 {
+  width: 100%;
+}
+
+.faq-content {
+  flex-basis: 36%;
+}
 }
 
 /* ==========================================================================
