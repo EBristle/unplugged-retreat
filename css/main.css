@@ -301,7 +301,7 @@ aside input {
   padding: 50px 0;
 }
 
-.features h1 {
+.features h2 {
   width: 90%;
   margin-bottom: 60px;
 }
@@ -339,11 +339,11 @@ aside input {
   width: 90%;
 }
 
-.reviews h1 {
+.reviews h2 {
   margin-bottom: 40px;
 }
 
-.reviews h2 {
+.reviews h3 {
   width: 50%;
   margin: 20px 0;
 }
@@ -417,7 +417,7 @@ figure {
   margin: 50px 0 0 0;
 }
 
-.faq h2 {
+.faq h3 {
   margin-bottom: 40px;
 }
 
