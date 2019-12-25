@@ -143,13 +143,13 @@ textarea {
      line-height: 1.13;  
    }
     
-   img {
-    
-   }
-    
-   figure {
-    
-   }
+   img { 
+    width: 100%;
+  }
+   
+  figure {
+          margin: 0;
+  }
     
    address {
     font-style: normal;
@@ -185,9 +185,15 @@ header .content-wrapper {
   margin: 0;
 }
 
-/* header figure? */
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-header .divider {
+header .header-divider {
   background: #3a3a3a;
   width: 100%;
   height: 1px;
@@ -267,6 +273,9 @@ footer .social-icons p {
   justify-content: center;
   flex-flow: row wrap;
   padding: 50px 0;
+  background: url('../img/hero-image.jpg') center no-repeat #333;
+  background-size: cover; 
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -329,11 +338,13 @@ aside input {
   justify-content: center;
   flex-flow: row wrap;
   padding: 50px 0;
+  background: url('../img/camping-image.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
   margin-bottom: 60px;
-  width: 90%;
+  width: 80%;
 }
 
 .features p {
@@ -355,8 +366,8 @@ aside input {
 
 }
 
-.features-item-description {
-
+.features .features-item-description {
+  margin: 30px 0;
 }
 
 /* Reviews Area */
@@ -374,7 +385,7 @@ aside input {
 }
 
 .reviews h3 {
-  width: 55%;
+  width: 60%;
   margin: 20px 0;
 }
 
@@ -382,6 +393,13 @@ aside input {
 
 }
 
+.reviews figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 .reviews .reviews-text {
 
 }
@@ -557,12 +575,18 @@ figure {
   /* Header */
   header {
     justify-content: space-around;
+    padding: 33px 0;
   }
   
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
   }
+
+  header figure {
+  width: 28%;
+  }
+
   header nav {
     width: 25%;
   }
@@ -576,6 +600,16 @@ figure {
   }
 
   /* Hero Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
+
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+  }
   
   /* Aside */
 
@@ -592,6 +626,10 @@ figure {
   }
 
   /* Features */
+
+  .features h2 {
+    margin-bottom: 20px;
+  } 
 
   .features article {
     display: flex;
@@ -610,11 +648,16 @@ figure {
     justify-content: space-between;
   }
 
-  .reviews article div {
+  .reviews .reviews-text {
     width: 49%;
   }
 
+  .reviews figure {
+    width: 40%;
+  }
+
   /* Footer */
+  
   footer .content-wrapper {
     width: 65%;
     margin: 100px 0;
@@ -624,10 +667,20 @@ figure {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row;
   }
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: 1.285;
   }
 
   /* footer-copyright { width: } */
@@ -652,7 +705,7 @@ figure {
   }
 
   .mission-content p {
-  width: 40%;
+  width: 45%;
   }
 
   .contact-section .content-wrapper h1 {
@@ -671,13 +724,18 @@ figure {
   }
 
   .faq-content {
-    flex-basis: 40%;
+    flex-basis: 45%;
   }
 
-  .faq h1 {
+  .faq h2 {
     width: 100%;
   }
 
+  .faq h4,
+  .faq p {
+    font-size: .875em;
+    line-height: 1.125;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -688,9 +746,36 @@ figure {
     max-width: 960px;
   }
 
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3, h4 {
+    font-size: 1.875em;
+  }
+
+  p {
+    font-size: 1.125em;
+    line-height: 1.333;
+  }
+
+  /* Header */
+  header {
+    padding: 15px 0;
+  }
+  
+  header figure {
+    width: 24%;
+    }
+
   /* Hero Area */
+  .hero-area {
+    min-height: 775px;
+  }
+ 
   .hero-area h1 {
-    width: 60%;
+    font-size: 3.75em;
+    width: 80%;
     margin-top: 50px;
   }
 
@@ -698,16 +783,20 @@ figure {
 
   aside .content-wrapper {
     justify-content: space-around;
-
   }
+
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 30%;
   }
 
+  .form-description p {
+    font-size: 1.125em;
+  }
+
   /* Features */
 
-  .features h1 {
+  .features h2 {
     width: 90%;
   }
 
@@ -720,24 +809,39 @@ figure {
     width: 44%;
   }
 
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
+
 /* About Page */
   .mission h2,
   .contact-section .content-wrapper h2 {
       width: 96%;
+      font-size: 3em;
   }
 
   .contact-section .content-wrapper h2 {
       margin-bottom: 40px;
   }
 
-/* FAQ Page */
-.faq h1 {
-  width: 100%;
-}
+  .contact-section h4 {
+    font-size: 1.875em;
+  }
 
-.faq-content {
-  flex-basis: 36%;
-}
+  /* FAQ Page */
+  .faq h2 {
+    width: 100%;
+    font-size: 3em;
+  }
+
+  .faq h4, .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
+
+  .faq-content {
+    flex-basis: 36%;
+  }
 }
 
 /* ==========================================================================
