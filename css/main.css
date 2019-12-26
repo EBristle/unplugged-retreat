@@ -683,7 +683,7 @@ aside input {
   /* Features */
 
   .features {
-    padding: 90px 0;
+    padding: 90px 0 40px 0;
   }
 
   .features h2 {
@@ -755,7 +755,11 @@ aside input {
   footer p {
     line-height: 1.285;
   }
-
+  
+  footer .social {
+    margin-top: 0;
+    width: 31%;
+  }
   /* footer-copyright { width: } */
 
 
@@ -876,9 +880,10 @@ aside input {
   }
 
   /* Features */
-
+  
   .features h2 {
     width: 70%;
+    margin-bottom: 90px;
   }
 
   .features article {
@@ -892,6 +897,12 @@ aside input {
 
   .reviews h2 {
     padding-bottom: 80px;
+  }
+
+  /* Footer */
+
+  footer .social {
+    width: 21%;
   }
 
 /***************** About Page - Desktop ***********************/
