@@ -417,6 +417,14 @@ aside input {
   background-color: #527158;
 }
 
+.mission .content-wrapper {
+  padding: 30px 0;
+}
+
+.mission h2 {
+  margin: 10px 0;
+  line-height: 1.2;
+}
 
 .mission-content {
 
@@ -440,6 +448,15 @@ figure {
   background-color: #2a423a;
 }
 
+.contact-section .content-wrapper {
+  padding: 40px 0 50px 0;
+}
+
+.contact-section h2 {
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
 .contact-content p {
   margin: 0;
 }
@@ -459,16 +476,16 @@ figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 50px 0 0 0;
+  margin: 50px 0 20px 0;
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin: 0 0 30px 0;
   line-height: 1;
 }
 
 .faq-content {
-  margin-bottom: 50px;
+  margin: 0 0 20px 0;
 }
 
 .faq-content h4 {
