@@ -202,7 +202,7 @@ header .header-divider {
 
 header nav {
   width: 60%;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
   color: #e2e3ed;
@@ -639,7 +639,6 @@ aside input {
 
   header nav {
     width: 30%;
-    font-size: 1em;
   }
   
   header nav ul {
@@ -848,6 +847,7 @@ aside input {
 
   header nav {
     width: 20%;
+    font-size: 1.125em;
   }
 
   /* Hero Area */
