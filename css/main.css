@@ -201,7 +201,7 @@ header .header-divider {
 }
 
 header nav {
-  width: 85%;
+  width: 60%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
@@ -216,6 +216,7 @@ header nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding: 0;
   }
 
 header nav ul li {
