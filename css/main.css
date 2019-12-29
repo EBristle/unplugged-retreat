@@ -145,11 +145,11 @@ textarea {
     
    img { 
     width: 100%;
-  }
+   }
    
-  figure {
+   figure {
           margin: 0;
-  }
+   }
     
    address {
     font-style: normal;
@@ -157,7 +157,6 @@ textarea {
     
    .content-wrapper {
     width: 90%;
-    /*margin: 50px 0;*/
    }
 
 /* ------------- Base Header - Footer Styles ----------------*/
@@ -237,10 +236,6 @@ footer .content-wrapper {
   margin: 30px 0 40px 0;
 }
 
-/*footer .footer-content {
- margin: 0 0 50px 0;*/
-}
-
 footer .contact {
   margin: 0 0 50px 0;
 }
@@ -287,7 +282,6 @@ footer .social-icons i {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  /*padding: 50px 0;*/
   padding: 10px 0;
   background: url('../img/hero-image.jpg') center no-repeat #333;
   background-size: cover; 
@@ -309,14 +303,6 @@ aside {
   flex-flow: row wrap;
   background-color: #527158;
   }
-
-/*aside h3 {
-  padding: 30px 0 10px 0;
-}*/
-
-aside .form-description {
-  
-}
 
 aside .form {
   margin: 30px 0 50px 0;
@@ -382,9 +368,6 @@ aside input {
   margin-bottom:35px;
 }
 
-.fontawesome-icon {
-}
-
 .features .features-item-description {
   margin-bottom: 50px;
 }
@@ -405,10 +388,6 @@ aside input {
 
 .reviews h3 {
   margin: 20px 0;
-}
-
-.reviews article {
-
 }
 
 .reviews figure {
@@ -440,10 +419,6 @@ aside input {
 .mission h2 {
   margin: 10px 0;
   line-height: 1.2;
-}
-
-.mission-content {
-
 }
 
 /* Map */
@@ -760,7 +735,6 @@ aside input {
     margin-top: 0;
     width: 31%;
   }
-  /* footer-copyright { width: } */
 
 
 /************************* About Page **********************/
